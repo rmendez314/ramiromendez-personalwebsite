@@ -6,7 +6,7 @@ function Home() {
     <>
       <div classname='home-container'>
         <div classname='home-image'>
-          <img src='../public/gradpic1.jpg' alt='Ramiro Mendez Grad Pic1'/>
+          <img src='./gradpic1.jpg' alt='Ramiro Mendez Grad Pic1'/>
         </div>
         <h1>Ramiro Mendez</h1>
       </div>

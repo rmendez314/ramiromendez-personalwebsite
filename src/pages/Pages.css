@@ -3,3 +3,19 @@
     justify-content: center;
     align-items: center;
 }
+
+.home-image.img {
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 50px auto;
+}
+
+.home-container.h1 {
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+}
