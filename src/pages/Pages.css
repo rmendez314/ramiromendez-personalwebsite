@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.home-image.img {
+.home-container img {
     width: 20%;
     height: 20%;
     object-fit: cover;
@@ -14,8 +14,3 @@
     margin: 50px auto;
 }
 
-.home-container.h1 {
-    margin: 50px auto;
-    justify-content: center;
-    align-items: center;
-}
