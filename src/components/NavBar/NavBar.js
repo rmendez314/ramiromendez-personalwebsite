@@ -18,6 +18,17 @@ function NavBar() {
           <Link to='#' className='menu-bars'>
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
+          <div className='button-options'>
+            <button className='button-about'>
+              About
+            </button>
+            <button>
+              Experience
+            </button>
+            <button>
+              Contact
+            </button>
+          </div>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-menu-items' onClick={showSidebar}>

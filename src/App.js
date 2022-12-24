@@ -7,9 +7,16 @@ import Experience from './pages/Experience';
 import About from './pages/About';
 
 function App() {
+
+  // const ref = useRef(null);
+
+  // const handleClick = () => {
+
+  // }
+
   return (
     <>
-      <Router>
+      {/* <Router>
         <NavBar />
         <Switch>
           <Route path='/' exact component={Home} />
@@ -17,7 +24,14 @@ function App() {
           <Route path='/experience' component={Experience} />
           <Route path='/about' component={About} />
         </Switch>
+      </Router> */}
+      <Router>
+        <NavBar />
       </Router>
+      <Home />
+      <About />
+      <Experience />
+      <Contact />
     </>
   );
 }
