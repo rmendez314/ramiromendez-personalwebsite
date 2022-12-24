@@ -77,7 +77,8 @@
 
 .hero {
   padding: 20px;
-  height: 60px;
+  height: 10%;
+  font-size: 30;
   background-color: #0b7414;
   justify-content: center;
   text-align: right;
@@ -96,7 +97,6 @@
   text-align: right;
   padding: 20px;
   font-weight: 500;
-  font-size: large;
   cursor: pointer;
 }
 
