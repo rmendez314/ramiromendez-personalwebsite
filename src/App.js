@@ -26,7 +26,7 @@ function App() {
     <div className="App">
       <ScrollToTop />
       <div className="hero">
-        <ul>
+        <ul className='list'>
           <li onClick={() => scrollToSection(home)} className="link">
             Home
           </li>
