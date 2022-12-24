@@ -6,12 +6,15 @@ import Experience from './components/experience/Experience';
 import About from './components/about/About';
 import ScrollToTop from './components/scrollToTop/ScrollToTop.js';
 import Header from './components/header/Header';
+import Nav from './components/nav/Nav';
 import Footer from './components/footer/Footer';
+
 
 
 function App() {
 
   const header = useRef(null);
+  const nav = useRef(null);
   const home = useRef(null);
   const about = useRef(null);
   const experience = useRef(null);
@@ -46,6 +49,9 @@ function App() {
       </div>
       <div ref={header}>
         <Header />
+      </div>
+      <div ref={nav}>
+        <Nav />
       </div>
       <div ref={home}>
         <Home />
