@@ -4,7 +4,7 @@ import '../App.css';
 
 function Contact() {
   return (
-    <div classname='contact'>
+    <div className='contact-container'>
         <h1>Contact</h1>
     </div>
   )

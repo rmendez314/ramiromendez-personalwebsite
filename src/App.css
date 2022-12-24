@@ -12,6 +12,8 @@
   justify-content: center;
   align-items: center;
   display: flex;
+  margin: 10px;
+  background-color: whitesmoke;
 }
 
 .home-image{
@@ -33,4 +35,91 @@
 
 .description { 
   text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.about-container {
+  height: 1000px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  background-color: whitesmoke;
+  margin: 10px;
+}
+
+.experience-container { 
+  height: 1000px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: whitesmoke;
+  margin: 10px;
+
+}
+
+.contact-container { 
+  height: 1000px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: whitesmoke;
+  margin: 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+.hero {
+  padding: 20px;
+  height: 60px;
+  background-color: #0b7414;
+  justify-content: center;
+  text-align: right;
+  color: white;
+}
+
+.list { 
+  list-style-type: none;
+  list-style-position: inside;
+  text-align: right;
+}
+
+.link {
+  display: inline;
+  justify-content: center;
+  text-align: right;
+  padding: 20px;
+  font-weight: 500;
+  font-size: large;
+  cursor: pointer;
+}
+
+/* scroll to top button */
+.top-btn-position {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+}
+
+.top-btn-style {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.top-btn-style:hover {
+  animation: none;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #fff;
 }
