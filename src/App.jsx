@@ -1,19 +1,22 @@
 import './App.css';
 import { useRef } from 'react';
-// import NavBar from './components/NavBar/NavBar.js';
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import Experience from './pages/Experience';
-import About from './pages/About';
-import ScrollToTop from './components/ScrollToTop/ScrollToTop.js';
+import Home from './components/home/Home';
+import Contact from './components/contact/Contact';
+import Experience from './components/experience/Experience';
+import About from './components/about/About';
+import ScrollToTop from './components/scrollToTop/ScrollToTop.js';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+
 
 function App() {
 
+  const header = useRef(null);
   const home = useRef(null);
   const about = useRef(null);
   const experience = useRef(null);
   const contact = useRef(null);
+  const footer = useRef(null);
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
@@ -41,6 +44,9 @@ function App() {
           </li>
         </ul>
       </div>
+      <div ref={header}>
+        <Header />
+      </div>
       <div ref={home}>
         <Home />
       </div>
@@ -53,17 +59,11 @@ function App() {
       <div ref={contact}>
         <Contact />
       </div>
+      <div ref={footer}>
+        <Footer />
+      </div>
     </div>
     );
-      {/* <Router>
-        <NavBar />
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/contact' component={Contact} />
-          <Route path='/experience' component={Experience} />
-          <Route path='/about' component={About} />
-        </Switch>
-      </Router> */}
 }
 
 export default App;
