@@ -1,5 +1,5 @@
 header { 
-    height: 60vh;
+    height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -51,12 +51,12 @@ header {
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
-.home-image{
+/* .home-image{
     height: 200px;
     width: 200px;
     border-radius: 100%;
     object-fit: cover;
-  }
+  } */
 
 /* Scroll down */
 
