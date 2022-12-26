@@ -3,9 +3,7 @@ import './Experience.css'
 
 function Experience() {
   return (
-    <div className='experience-container'>
-      <h1>Experience</h1>
-    </div>
+    <section id='experience'>Experience</section>
   )
 }
 
