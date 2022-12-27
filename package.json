@@ -1,6 +1,8 @@
 {
   "name": "ramiromendez-personalwebsite",
+  "homepage": "https://ramiro-mendez.com/",
   "version": "0.1.0",
+  "description": "my react application",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
