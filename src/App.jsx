@@ -2,6 +2,7 @@ import './App.css';
 // import Home from './components/home/Home';
 import Contact from './components/contact/Contact';
 import Experience from './components/experience/Experience';
+import Portfolio from './components/portfolio/Portfolio';
 import About from './components/about/About';
 // import ScrollToTop from './components/scrollToTop/ScrollToTop.js';
 import Header from './components/header/Header';
@@ -16,6 +17,7 @@ function App() {
         <Nav/>
         <About/>
         <Experience/>
+        <Portfolio/>
         <Contact/>
         <Footer/>
       </div>
