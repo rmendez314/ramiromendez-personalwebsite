@@ -1,8 +1,8 @@
 import React from 'react'
 import Me from '../../Assets/bigbendpic.jpeg'
 import { FaUserClock } from 'react-icons/fa'
-import { FiUsers } from 'react-icons/fi'
-import { VscFolderLibrary } from 'react-icons/vsc'
+import { FaUserGraduate } from 'react-icons/fa'
+import { GiTiedScroll } from 'react-icons/gi'
 import './About.css'
 
 function About() {
@@ -24,14 +24,14 @@ function About() {
               <small>6+ Months Professional</small>
             </article>
             <article className='about__card'>
-              <FiUsers className='about__icon'/>
-              <h5>Experience</h5>
-              <small>6+ Months Professional</small>
+              <FaUserGraduate className='about__icon'/>
+              <h5>BS Computer Science</h5>
+              <small>UTSA 2022</small>
             </article>
             <article className='about__card'>
-              <VscFolderLibrary className='about__icon'/>
-              <h5>Experience</h5>
-              <small>6+ Months Professional</small>
+              <GiTiedScroll className='about__icon'/>
+              <h5>Minor Business Administration</h5>
+              <small>UTSA 2022</small>
             </article>
           </div>
           <p>
