@@ -13,7 +13,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--color-bg);
-  color: var(--color-white);
+  color: black;
   font-size: 16px;
   line-height: 1.7;
   overflow-x: hidden;
@@ -23,10 +23,10 @@ body {
 }
 
 :root { 
-  --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-bg: #f3f3f3;
+  --color-bg-variant: #ffffff;
+  --color-primary: #429237;
+  --color-primary-variant: rgba(77, 121, 80, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -67,7 +67,7 @@ section {
 
 section > h2, section > h5 {
   text-align: center;
-  color: var(--color-light)
+  color: black;
 }
 
 section > h2 {

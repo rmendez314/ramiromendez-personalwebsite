@@ -4,6 +4,8 @@
     gap: 15%;
 }
 
+
+
 .about__me { 
     width: 100%;
     aspect-ratio: 1/1;
@@ -37,6 +39,7 @@
     border-radius: 2rem;
     padding: 2rem;
     text-align: center;
+    color: black;
 }
 
 .about__card:hover { 
@@ -58,13 +61,13 @@
 
 .about__card small { 
     font-size: 0.7rem;
-    color: var(--color-light);
+    color: black;
 }
 
 .about__content p { 
     margin: 2rem 2.6rem;
     font-size: 0.8rem;
-    color: var(--color-light);
+    color: black;
 }
 
 

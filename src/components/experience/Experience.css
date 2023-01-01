@@ -28,11 +28,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
+    color: black;
+    text-align: left;
 }
 
 .experience__details { 
     display: flex;
     gap: 1rem;
+}
+
+.experience__details small { 
+    color: black;
 }
 
 .experience__details__icon {

@@ -11,6 +11,7 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    color: black;
 }
 
 .portfolio__item:hover {
@@ -19,7 +20,7 @@
 }
 
 .portfolio__item > h5 { 
-    color: var(--color-light);
+    color: black;
     margin: 0.5rem
 }
 
