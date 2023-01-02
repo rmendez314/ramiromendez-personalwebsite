@@ -35,10 +35,9 @@ function About() {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing 
-            elit. Debitis facere veritatis numquam deleniti repudiandae 
-            unde repellendus assumenda. Aperiam animi rerum dolorum nostrum? 
-            Pariatur saepe culpa, optio asperiores aliquam modi veniam.
+            Recent Computer Science graduate with fundamental knowledge of software design, development, and
+            testing. Seeking to utilize broad education background and experience with excellent analytical, technical, and
+            programming skills to thrive as an entry-level software engineer. 
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

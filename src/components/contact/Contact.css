@@ -39,11 +39,11 @@
 }
 
 .contact__option > h5 {
-    color: black;
+    color: var(--color-light);
 }
 
 .contact__option > h4 {
-    color: var(--color-primary);
+    color: var(--color-light);
 }
 
 
