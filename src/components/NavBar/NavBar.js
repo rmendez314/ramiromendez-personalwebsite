@@ -18,17 +18,6 @@ function NavBar() {
           <Link to='#' className='menu-bars'>
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
-          {/* <div className='button-options'>
-            <button  onClick={() => scrollToSection(about)} className='button-about'>
-              About
-            </button>
-            <button  onClick={() => scrollToSection(about)} >
-              Experience
-            </button>
-            <button  onClick={() => scrollToSection(about)} >
-              Contact
-            </button>
-          </div> */}
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-menu-items' onClick={showSidebar}>
