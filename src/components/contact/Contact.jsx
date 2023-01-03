@@ -3,6 +3,7 @@ import { MdOutlineEmail } from 'react-icons/md'
 import {IoIosText} from 'react-icons/io'
 import {useRef} from 'react'
 import emailjs from 'emailjs-com'
+import { BsLinkedin } from 'react-icons/bs'
 import env from './.env'
 import './Contact.css'
 
@@ -39,6 +40,12 @@ function Contact() {
             <h4>Phone</h4>
             <h5>Text Me</h5>
             <a href="sms:+12105025970" target='_blank' rel='noreferrer'>Send a text</a>
+          </article>
+          <article className="contact__option">
+            <BsLinkedin className="contact__icon"/>
+            <h4>LinkedIn</h4>
+            <h5>ramiro-mendez-076076212</h5>
+            <a href="https://www.linkedin.com/in/ramiro-mendez-076076212/" target='_blank' rel='noreferrer'>Send a message</a>
           </article>
         </div>
 

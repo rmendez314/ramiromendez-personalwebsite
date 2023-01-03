@@ -69,6 +69,10 @@ header {
     font-size: 0.9rem;
 }
 
+.header__container > h5 {
+    color: var(--color-light);
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     header { 

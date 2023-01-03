@@ -23,12 +23,12 @@ body {
 }
 
 :root { 
-  --color-bg: #111010;
-  --color-bg-variant: #151414;
+  --color-bg: #191818;
+  --color-bg-variant: #2b2929;
   --color-primary: #2c7034;
   --color-primary-variant: rgba(56, 164, 39, 0.4);
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: rgba(255, 255, 255, 0.734);
 
   --transition: all 400ms ease;
 
