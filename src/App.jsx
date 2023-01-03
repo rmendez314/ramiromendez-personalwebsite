@@ -8,6 +8,7 @@ import About from './components/about/About';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import Footer from './components/footer/Footer';
+// import NavBar from './components/NavBar/NavBar.jsx';
 
 function App() {
 
