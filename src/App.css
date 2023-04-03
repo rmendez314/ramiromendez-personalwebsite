@@ -255,3 +255,9 @@ img {
   color: #fff;
   border: 2px solid #fff;
 }
+
+@media screen and (max-width: 600px) {
+  .body {
+    viewport-fit: cover;
+  }
+}
